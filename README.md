@@ -50,7 +50,7 @@ By default, SimplySerial will attempt to identify and connect to a CircuitPython
 
 Once you're connected, you should see messages from the device on COMx appear on screen, and anything you type into Command Prompt/PowerShell will be sent to the device.  CircuitPython users can access the REPL using `CTRL-C` and exit the REPL using `CTRL-D`.
 
-You can exit SimplySerial any time by pressing `CTRL-X`.  
+You can exit SimplySerial any time by pressing `CTRL-Q` (changed from CTRL-X since that is used to exit nano).
 
 If you have multiple COM ports, multiple CircuitPython devices connected, or need to use different communications settings, you will need to use the appropriate command-line arguments listed below:
 
